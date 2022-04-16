@@ -1,4 +1,4 @@
-# [WIP] soc4onnx
+# soc4onnx
 A very simple tool that forces a change in the opset of an ONNX graph. **S**imple **O**pset **C**hanger for **ONNX**.
 
 https://github.com/PINTO0309/simple-onnx-processing-tools
@@ -78,24 +78,24 @@ change(
     opset: int
         opset number to be changed.
         e.g. --opset 11
-    
+
     input_onnx_file_path: Optional[str]
         Input onnx file path.
         Either input_onnx_file_path or onnx_graph must be specified.
-    
+
     output_onnx_file_path: Optional[str]
         Output onnx file path.
         If output_onnx_file_path is not specified, no .onnx file is output.
-    
+
     onnx_graph: Optional[onnx.ModelProto]
         onnx.ModelProto.
         Either input_onnx_file_path or onnx_graph must be specified.
         onnx_graph If specified, ignore input_onnx_file_path and process onnx_graph.
-    
+
     non_verbose: Optional[bool]
         Do not show all information logs. Only error logs are displayed.
         Default: False
-    
+
     Returns
     -------
     changed_graph: onnx.ModelProto
