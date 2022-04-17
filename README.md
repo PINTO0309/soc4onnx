@@ -129,3 +129,6 @@ $ soc4onnx \
 --opset 13
 ```
 ![image](https://user-images.githubusercontent.com/33194443/163655699-b456b01b-957a-40f6-9703-547c1769f8d8.png)
+
+## 7. Issues
+https://github.com/PINTO0309/simple-onnx-processing-tools/issues
